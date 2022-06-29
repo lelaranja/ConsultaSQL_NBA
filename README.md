@@ -14,13 +14,14 @@ Site desenvolvido para a finalização do módulo III, do curso de Desenvolvimen
    * [Objetivo](#-objetivo)
    * [Tecnologias utilizadas](#%EF%B8%8F-tecnologias-utilizadas)
    * [Desenvolvido por](#-desenvolvido-por)
-   * [Acesse aqui]()
+   * [Acesse aqui](https://lelaranja.github.io/ConsultaSQL_NBA/)
+   * [Dashboard](https://infogram.com/teste1-1h8n6m3o01omz4x)
 <!--te-->
 
 ## 👷‍♀️ Status do projeto
 
 <h3 align='center'> 
-	 🚀Em processo final
+	 🚀Finalizado
 </h3><br>
 
 
