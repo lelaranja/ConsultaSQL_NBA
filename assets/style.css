@@ -60,7 +60,7 @@ red: #D00927
   
   .card-person {
     max-width: 16rem;
-    height: 700px;
+    height: 500px !important;
     display: flex;
     transition-timing-function: ease;
     transition: 0.6s;
@@ -76,10 +76,10 @@ red: #D00927
     margin-top: 10rem !important;
   }
 
-  /* .card-bottom {
+  .card-bottom {
     position: absolute;
     bottom: 0;
-} */
+}
 
   .bullet {
     list-style: none;
