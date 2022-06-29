@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NBA Dashboard</title>
+    <link rel="shortcut icon" href="assets/img/nba_icon" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body class="bg-dark text-white">
+
+    <!-- Cabeçalho -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-header fs-4">
+          <div class="container-fluid">
+              <div class="logo"><a class="navbar-brand estiloSublinhado" href="./index.html"><img class="logo" src="assets/img/nba_logo.png" alt="NBA logo"></a></div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link estiloSublinhado" href="#dashboard">Dashboard</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link estiloSublinhado" href="#sobre">Sobre</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link estiloSublinhado" href="#equipe">Equipe</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+
+  <section class="ms-3">
+    <h1 class="margin-top">NBA Dashboard</h1>
+    <p>Nesta página você encontrará alguns gráficos sobre estatísticas referentes a <a href="https://www.nba.com/" class="link-light">NBA</a> - National Basketball Association, a mais competitiva liga profissional de basquete do mundo!</p>
+    <p>Por acaso você tem curiosidade de saber...
+      <ul>
+        <li class="bullet">Quantos times foram fundados por década?</li>
+        <li class="bullet">Houve aumento de diversidade de países de origem dos jogadores entre 2009 e 2019?</li>
+        <li class="bullet">Quantos % dos pontos dos top 10 times da temporada de 2019 fez o jogador que mais pontuou?</li>
+      </ul>
+    </p>
+    <p>Podemos conferir esses dados nos gráficos abaixo!</p>
+  </section>
+  
+
+  <main id="dashboard" class="ms-3">
+    <h2 class="margin-top">Gráficos</h2>
+    <script id="infogram_0_10237e13-e5bf-45bd-98bb-95af8d199a85" title="teste1" src="https://e.infogram.com/js/dist/embed.js?RCE" type="text/javascript"></script> 
+    <div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 auto; width: 50%"><a href="https://infogram.com/" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Feito no site Infogram</a></div>
+  </main>
+
+  <!-- Sobre -->
+  <section id="sobre" class="ms-3">
+    <h2>Sobre</h2>
+    <p>Nesse projeto, o desafio foi montar um dashboard de um determinado <em>database</em> e explorar os dados, elaborando perguntas e realizando consultas SQL para praticar o que aprendemos no módulo 3 do curso de Web Dev da Resilia Educação.</p>
+    <p> Dentre os temas, escolhemos a base de dados da NBA, com as seguintes tabelas:
+      <ul>
+        <li class="bullet">Players;</li>
+        <li class="bullet">Teams;</li>
+        <li class="bullet">Ranking;</li>
+        <li class="bullet">Games;</li>
+        <li class="bullet">Games Details.</li>
+      </ul>
+    </p>
+  </section>
+
+    <!-- Equipe -->
+  <section id="equipe" class="ms-3">
+      <h2 class="margin-top">Equipe</h2>
+      <div class="container-fluid d-flex justify-content-center flex-wrap">
+        <div class="card row col-12 col-md-4 p-0 m-4 card-person">
+          <img src="assets/img/alonso.jpg" class="card-img-top card-img-position" alt="Pessoa parda sorrindo, de olhos cor castanho escuro, cabelo preto e curto, barba curta no queixo e camisa cinza em um fundo bege">
+            <div class="card-body">
+              <h5 class="card-title fw-bold background">Alonso Estevam</h5>
+              <div>
+                  <ul>
+                      <li class="bullet">Dev Web Full Stack;</li>
+                      <li class="bullet">(de)formado em Ciências Sociais e Antropologia;</li>
+                      <li class="bullet">Fã de avatar (o desenho, não o filme do povo azul);</li>
+                      <li class="bullet">bicicleta, sol e pastel.</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="card-body card-bottom">
+              <img src="assets/img/linkedin.png" alt="logo do LinkedIn">
+              <a href="https://www.linkedin.com/in/alonso-estevam/" class="card-link estiloSublinhado">LinkedIn</a>
+              <img src="assets/img/github.png" alt="logo do GitHub">
+              <a href="https://github.com/alonso-estevam" class="card-link estiloSublinhado">Github</a>
+            </div>
+        </div>
+        <div class="card col-12 col-md-4 p-0 m-4 card-person">
+          <img src="assets/img/dan.jpg" class="card-img-top card-img-position" alt="rosto de uma pessoa branca sorrindo, de cabelos pretos e despenteados, com bigode e cavanhaque, usando óculos de aro preto, em um fundo cinza">
+          <div class="card-body">
+            <h5 class="card-title fw-bold background">Dan Baziewicz</h5>
+                <div class="card-text">
+                    <ul>
+                        <li class="bullet">Apaixonado por educação e tecnologia;</li>
+                        <li class="bullet">Gateiro de carteirinha;</li>
+                        <li class="bullet">Apreciador de vinho e filme ruim;</li>
+                        <li class="bullet">Aleatório nas horas vagas.</li>
+                    </ul>
+                </div>
+                <div class="card-body card-bottom">
+                        <img src="assets/img/linkedin.png" alt="logo do LinkedIn">
+                        <a href="https://www.linkedin.com/in/danbaziewicz/" class="card-link estiloSublinhado">LinkedIn</a>
+                        <img src="assets/img/github.png" alt="logo do GitHub">
+                        <a href="https://github.com/danbaziewicz" class="card-link estiloSublinhado">Github</a>
+                </div>
+          </div>
+        </div>
+        <div class="card row col-12 col-md-4 p-0 m-4 card-person">
+            <img src="assets/img/edson.jpg" class="card-img-top card-img-position" alt="pessoa negra, careca, com expressão neutra, usando camisa branca em um fundo cinza claro e uma barra azul no topo">
+            <div class="card-body">
+              <h5 class="card-title fw-bold background">Edson Vieira</h5>
+                <div class="card-text">
+                    <ul>
+                        <li class="bullet">Nerd nas horas vagas, gamer old school;</li>
+                        <li class="bullet">Música / Filme / Conversa: é só chamar;</li>
+                        <li class="bullet">T.I. pra sempre!</li>
+                        <li class="bullet">"Penso, logo existo".</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-body card-bottom">
+              <img src="assets/img/linkedin.png" alt="logo do LinkedIn">
+              <a href="https://www.linkedin.com/in/edson-vieira-229134211/" class="card-link estiloSublinhado">LinkedIn</a>
+              <img src="assets/img/github.png" alt="logo do GitHub">
+              <a href="https://github.com/Edson-7728" class="card-link estiloSublinhado">Github</a>
+            </div>
+        </div>
+        <div class="card col-12 col-md-4 p-0 m-4 card-person">
+            <img src="assets/img/leticia.jpg" class="card-img-top card-img-position" alt="pessoa branca sorrindo, de cabelo curto e escuro, usando camisa preta com o detalhe do desenho de caminhão no lado direito, em um fundo cinza claro">
+            <div class="card-body">
+                <h5 class="card-title fw-bold background">Letícia Laranja</h5>
+                <div class="card-text">
+                    <ul>
+                      <li class="bullet">Desenvolvedora FrontEnd;</li>
+                        <li class="bullet">Gamer de tabuleiro;</li>
+                        <li class="bullet">Cachorreira desde criança;</li>
+                        <li class="bullet">Viciada em informações inúteis.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-body card-bottom">
+              <img src="assets/img/linkedin.png" alt="logo do LinkedIn">
+              <a href="https://www.linkedin.com/in/leticialaranja/" class="card-link estiloSublinhado">LinkedIn</a>
+              <img src="assets/img/github.png" alt="logo do GitHub">
+              <a href="https://github.com/lelaranja" class="card-link estiloSublinhado">Github</a>
+            </div>
+          </div>
+      </div>
+    </section>
+    
+  <!-- Rodapé -->
+    <footer>
+      <p class="text-center">Projeto desenvolvido para fins exclusivamente educacionais</p>
+      <p class="text-center">Link do repositório <a href="https://github.com/lelaranja/ConsultaSQL_NBA" target="_blank" class="link-light">aqui</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
