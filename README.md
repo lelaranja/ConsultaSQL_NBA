@@ -12,6 +12,7 @@ Site desenvolvido para a finalização do módulo III, do curso de Desenvolvimen
 <!--ts-->
    * [Status do projeto](#%EF%B8%8F-status-do-projeto)
    * [Objetivo](#-objetivo)
+   * [Gráficos](#-gr%C3%A1ficos)
    * [Tecnologias utilizadas](#%EF%B8%8F-tecnologias-utilizadas)
    * [Desenvolvido por](#-desenvolvido-por)
    * [Acesse aqui](https://lelaranja.github.io/ConsultaSQL_NBA/)
@@ -27,12 +28,21 @@ Site desenvolvido para a finalização do módulo III, do curso de Desenvolvimen
 
 ## 🎯 Objetivo
 
-Colocar em prática os conhecimentos do módulo III com a utilização de banco de dados relacionais utilizando a linguagem SQL, com as informações reunidas do bando de dados da NBA nos propomos à partir para um desenvolvimento frontend para exibir estes resultados.
+Colocar em prática os conhecimentos do módulo III com a utilização de banco de dados relacionais utilizando a linguagem SQL, com as informações reunidas da database da NBA nos propomos à partir para um desenvolvimento frontend para exibir estes resultados.
 
 ## As perguntas que fizemos a todos estes dados foram:
 * Quantos times foram fundados por década?
 * Houve aumento de diversidade de países de origem dos jogadores entre 2009 e 2019?
 * Dos top 10 times da temporada de 2019, qual a representatividade do jogador que mais pontuou?
+
+## 🏀 Gráficos
+
+<p>Quantidade de times ao longo do tempo</p>
+<img src="./graficos/crescimento_times.PNG">
+<p>Aumento de diversidade de países de origem dos jogadores</p>
+<img src="./graficos/Origem_Jogadores.png">
+<p>Representatividade do jogador que mais pontuou na temporada 2019</p>
+<img src="./graficos/pts_jogadorTime.png">
 
 ##  🛠️ Tecnologias utilizadas
 
